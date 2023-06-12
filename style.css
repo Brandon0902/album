@@ -16,6 +16,8 @@ body {
   }
   
   .carousel__list {
+    
+    width: 100%; 
     display: flex;
     overflow: hidden;
     list-style: none;
@@ -260,7 +262,7 @@ body {
       text-align: right;
     }
     [data-active] .carousel__contents {
-      background-position: 100% 100%;
+      background-position: 300% 300%;
     }
     .carousel__contents .user__title,
     .carousel__contents .user__name {
@@ -315,5 +317,4 @@ body {
     align-items: start;
   }
 
-  
   
